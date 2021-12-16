@@ -12,7 +12,13 @@ def aloitus():
             asiakas_rooli()
             break
         elif rooli == "Ylläpitäjä":
-            yllapitaja_rooli()
+            while True:
+                salasana = input("Anna salasana: ")
+                if salasana == "kiveskiertymä":
+                    yllapitaja_rooli()
+                    break
+                else:
+                    print("Väärä salasana, yritä uudelleen.")
             break
         else:
             print("Ei hyväksyttävä rooli, valitse Asiakas tai Ylläpitäjä.")
@@ -32,7 +38,7 @@ def asiakas_rooli():
                 varaa_paikka(i, maara)
 
 def yllapitaja_rooli():
-    print("wenis")
+    print("Oikea salasana\nOnneksi olkoon, sait kiveskiertymän")
     lisaa_naytos()
 
 def lataa_tiedosto():
@@ -114,6 +120,16 @@ def monta_naytosta(kertoja: int):
     for j in klo:
         abc.append(int(j))
 
+    naytos_id = 1000
+    n = 0
+    while n < 10000:
+        for i in naytokset:
+            if i[-1] == naytos_id:
+                naytos_id += 1
+        n += 1
+    tallenna_naytos_listaan(elokuva, kesto, sali, defg, abc, naytos_id)
+    k += 1
+
     while True:
         if k >= kertoja:
             break
@@ -177,6 +193,5 @@ def monta_naytosta(kertoja: int):
         k += 1
         
 naytokset = lataa_tiedosto()
-print(naytokset)
 aloitus()
 tallenna_tiedostoon()
