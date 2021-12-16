@@ -73,7 +73,7 @@ def lisaa_naytos():
         n += 1
     tallenna_naytos_listaan(elokuva, kesto, sali, pvm, klo, naytos_id)
 
-lataa_tiedosto()
+naytokset = lataa_tiedosto()
 print(naytokset)
 aloitus()
 tallenna_tiedostoon()
