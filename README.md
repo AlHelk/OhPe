@@ -30,8 +30,10 @@ en y,,ärrä
 `monta_naytosta()` antaa ylläpitäjän lisätä saman näytöksen samaan saliin valitun määrän peräkkäin
 
 ### Vastuunjako
-GitHub repon teki Aatos
-Eemil suunnitteli ohjelman pääpiirteet
+GitHub repon teki @AlHelk
+
+@eemilsuominen suunnitteli ohjelman pääpiirteet
+
 Koodaus 50/50
 
 ## Käyttöohjeet
@@ -42,6 +44,7 @@ Ylläpitäjän roolille on annettu _todella_ yksinkertainen salasanasuojaus mene
 if input == salasana
     käyttäjä päästetään sisään
 ```
+Salasana on siis `salasana`
 
 ### Asiakas
 Asiakkaalle annetaan aluksi kolme vaihtoehtoa
