@@ -8,8 +8,6 @@ Aiheena elokuvateatterin varausjärjestelmä
 ### Ulkoiset kirjastot
 Ulkoisia kirjastoja ovat `datetime` päivämäärien hallintaan ja `pickle` paikka- ja varausjärjestelmän tietokannan hallintaan.
 
-### Ratkaisuperiaate
-
 ### Käytetyt funktiot
 
 `aloitus()` ns. pääfunktio, jakaa käyttäjän asiakkaan tai ylläpitäjän rooliin
