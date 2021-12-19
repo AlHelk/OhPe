@@ -40,6 +40,7 @@ Eemil suunnitteli ohjelman pääpiirteet
 Koodaus 50/50
 
 ## Käyttöohjeet
+Käynnistä ohjelma suorittamalla `varaus.py`
 Aluksi ohjelman käynnistyessä käyttäjältä kysytään roolia.
 Tähän on saatavilla vaihtoehdot 'Asiakas' tai 'Ylläpitäjä'.
 Ylläpitäjän roolille on annettu _todella_ yksinkertainen salasanasuojaus menetelmällä
