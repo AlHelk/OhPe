@@ -26,6 +26,7 @@ en y,,ärrä
 `varaa_paikka()` poistaa edellisessä funktiossa valitun määrän vapaita paikkoja valitusta näytöksestä
 
 `lisaa_naytos()` antaa ylläpitäjän lisätä uuden näytöksen ja valita siihen elokuvan nimen, salin, keston, näytöksen päivämäärän ja kellonajan. Antaa näytökselle ainutlaatuisen id:n
+
 `monta_naytosta()` antaa ylläpitäjän lisätä saman näytöksen samaan saliin valitun määrän peräkkäin
 
 ### Vastuunjako
