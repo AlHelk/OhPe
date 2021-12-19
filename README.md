@@ -53,6 +53,7 @@ Salasana on siis `salasana`
 
 ### Asiakas
 Asiakkaalle annetaan aluksi kolme vaihtoehtoa
+
 ![image](https://user-images.githubusercontent.com/7459186/146674548-3cdabf40-d88b-492a-a8a9-4e92059bb59b.png)
 
 Valitsemalla `varaus` asiakkaalta kysytään mihin elokuvaan varaus halutaan tehdä.
@@ -61,6 +62,7 @@ Siksi onkin suositeltavaa että asiakas valitsisi aluksi `tarkastelu`, jolloin o
 
 ### Ylläpitäjä
 Valittaessa ylläpitäjän rooli, ohjelma antaa jälleen kolme vaihtoehtoa (salasanaa lukuunottamatta)
+
 ![image](https://user-images.githubusercontent.com/7459186/146674900-2a8d6d61-df26-455a-9a9f-b0cafa719703.png)
 Ylläpitäjän on mahdollista lisätä ohjelmistoon elokuvia ja näytöksiä, sekä tarkastella niitä.
 
