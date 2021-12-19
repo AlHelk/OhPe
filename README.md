@@ -5,7 +5,14 @@ Tekijät Aatos Helkkula ja Eemil Suominen
 
 Aiheena elokuvateatterin varausjärjestelmä
 
-Ylimääräisiä kirjastoja ovat `datetime` päivämäärien hallintaan ja `pickle` paikka- ja varausjärjestelmän tietokannan hallintaan.
+### Ulkoiset kirjastot
+Ulkoisia kirjastoja ovat `datetime` päivämäärien hallintaan ja `pickle` paikka- ja varausjärjestelmän tietokannan hallintaan.
+
+### Ratkaisuperiaate
+en y,,ärrä
+
+### Käytetyt funktiot
+
 
 ## Käyttöohjeet
 Aluksi ohjelman käynnistyessä käyttäjältä kysytään roolia.
